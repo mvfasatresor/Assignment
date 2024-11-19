@@ -42,7 +42,7 @@ button {
     background-color: #a22640;
     color: white;
     border: none;
-    padding: 8px 100px;
+    padding: 10px 286px;
     border-radius: 4px;
     cursor: pointer;
     display: block;
@@ -56,8 +56,4 @@ button {
   textarea:hover{
     background-color: #f0cad2;
   }
-  input[type="radio"],
-input[type="checkbox"]{
-    background-color: #f0cad2;
-}
-  
+   
