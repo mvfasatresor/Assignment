@@ -1,0 +1,63 @@
+body{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding: 0%;
+background-color: #ab7d87;
+}
+
+h1 { 
+    text-align: center;
+    color: rgb(233, 222, 222);
+}
+p {
+    text-align: center;
+    color: rgb(217, 205, 205);
+  
+}
+form {
+    max-width: 600px;
+  margin: 20px auto;
+  background-color: rgb(243, 231, 231);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ebbbc2;
+}
+label {
+    display: block;
+    margin: 5px; 0 10px
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 6px;
+    margin: 5px 0 10px;
+    border: 1px solid #de9292;
+    border-radius: 6px;
+}
+
+
+button {
+    background-color: #a22640;
+    color: white;
+    border: none;
+    padding: 8px 100px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+  }
+  button:hover {
+    background-color: #bd828f;
+  }
+  input:hover {
+    background-color: #f0cad2;
+  }
+  textarea:hover{
+    background-color: #f0cad2;
+  }
+  input[type="radio"],
+input[type="checkbox"]{
+    background-color: #f0cad2;
+}
+  
