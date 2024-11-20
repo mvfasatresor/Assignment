@@ -7,13 +7,12 @@ background-color: #ab7d87;
 h1 { 
     text-align: center;
     color: rgb(233, 222, 222);
-    font-size: 1000;
-    }
+  }
+  
 p {
     text-align: center;
     color: rgb(217, 205, 205);
-  
-}
+  }
 form {
     max-width: 600px;
   margin: 20px auto;
