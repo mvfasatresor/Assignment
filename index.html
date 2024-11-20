@@ -8,19 +8,18 @@
 </head>
 <body>
     <h1 id="title">survey-form</h1>
-    
-        <p id="description"> Please fullfil survey form to describe you</p>
-
+        <p id="descri ption"> Please fullfil survey form to describe you</p>
+        
         <form id="survey Form">
         <label for="first name"> Full name:</label>
         <input type="text" id="name" name="name"  placeholder="Enter name" required>
-       
+       <br>
         <label for="email"> Email:</label>
         <input type="email" id="email" name="email" placeholder="Enter a valid email address" required> 
-       
+       <br>
         <label for="age"> Age</label>
         <input type="number" id="number" name="Age" min="1" max="200" placeholder="000" required>
-    
+    <br>
         <label for="dropdown" id="dropdown-label"> choose an option:</label>
        
         <select id="dropdown" name="dropdown" required>
@@ -30,12 +29,12 @@
         <option value="option2">Sing in chinese</option>
       </select>
       
-      <h3>Contact method</h3>
+      <h3 id="contact-method">Contact method</h3>
       <div id="radio buttons">
         
         <input type="radio" id="email-radio" name="contact-method" value="email" required>
         <label for="email radio"> Email</label>
-        
+        <br>
         <input type="radio" id="phone-radio" name="contact ,ethod" value="phone number">
         <label for="phone-radio">Phone</label>
      </div>
@@ -45,10 +44,10 @@
         
         <input type="checkbox" id="interest1" name="interests" value="spring">
         <label for="interest1">Spring</label>
-
+        <br>
         <input type="checkbox" id="interest2" name="interests" value="summer">
         <label for="interest2">Summer</label>
-        
+        <br>
         <input type="checkbox" id="interest3" name="interests" value="autumn">
         <label for="interest3">Autumn</label>
         
