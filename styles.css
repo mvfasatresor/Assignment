@@ -57,4 +57,7 @@ button {
   textarea:hover{
     background-color: #f0cad2;
   }
-   
+   input[type="radio"],
+   input[type="checkbox"] {
+    width: fit-content;
+   }
